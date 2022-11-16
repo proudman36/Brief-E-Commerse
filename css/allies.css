@@ -1,0 +1,67 @@
+.allies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.allies .container{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+.allies hr{
+    width: 100%;
+
+}
+.allies .logo_zapato{
+    display: flex;
+    margin-right: 100px;
+}
+.allies .zapato{
+    width:70px;
+    height:70px;
+    
+}
+.allies .texto_zapato{
+    margin-top:10px;
+    font-size: small;
+}
+.allies .chanel{
+    height:70px;
+    width:150px;
+    margin-right: 100px;
+}
+.allies .glamour{
+    width:200px;
+    height:70px;
+    margin-right: 100px;
+}
+.allies .arturo_calle{
+    height:70px;
+    width: 100px;
+}
+@media screen and (max-width: 800px){
+    .allies .container{
+        left:100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .allies .logo_zapato{
+        margin: top 40px;
+        margin-left: 80px;
+    }
+    .allies .chanel{
+        margin-top:40px;
+        margin-left: 80px;
+    }
+    .allies .glamour{
+        margin-top:40px;
+        margin-left: 80px;
+    }
+    .allies .arturo_calle{
+        margin-top:40px;
+        margin-right:15px;
+    }
+
+}
