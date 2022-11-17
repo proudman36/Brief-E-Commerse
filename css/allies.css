@@ -11,6 +11,10 @@
 }
 .allies hr{
     width: 100%;
+    position:absolute;
+    margin-top: 8px;
+    
+
 
 }
 .allies .logo_zapato{
@@ -42,7 +46,6 @@
 }
 @media screen and (max-width: 800px){
     .allies .container{
-        left:100%;
         display:flex;
         flex-direction: column;
         align-items: center;
