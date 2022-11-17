@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,25 +12,87 @@
     <link rel="stylesheet" href="/css/opinions.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+    </style>
 </head>
+
 <body>
-   <header>
+    <header>
 
-   </header> 
-   <section class="banner">
+    </header>
+    <!------------------banner------------------>
+    <section id="banner">
+        <div class="container_banner">
+            <div class="texto">
+                <h1 class="descuento">40% OFF</h1>
+                <h2 class="titulo">MEN'S FALL <br> COLLECTION </h2>
+                <button> SHOP NOW </button>
+                <p class="pie">Sale ends October 8, 2025 at 11:59 PM PDT</p>
+            </div>
+            <div class="img-container"></div>
+        </div>
+    </section>
 
-   </section>
-   <section class="benefits">
+    </section>
+    <section class="benefits">
 
-   </section>
-   <section class="allies">
+    </section>
+    <section class="allies">
 
-   </section>
-   <section class="opinions">
-
-   </section>
-   <footer>
-
-   </footer>
+    </section>
+    <!------------------opiniones----------------->
+    <section id="opinions">
+        <hr>
+        <h2 class="title">COSTUMER TOP PICKS:</h2>
+        </hr>
+        <div class="slider_container container_s">
+            <img src="assets/arrow-left.svg" class="slider_arrow" id="before">
+            <section class="slider_body slider_body-show" data-id="1">
+                <figure class="slide_picture">
+                    <img src="imagenes/comentario-1.jpg" class="slider_img">
+                </figure>
+                <div class="slider_text">
+                    <h1 class="subtitle">DENMARK CLASSIC SIGNATURE MEN'S SUIT</h1>
+                    <img src="assets/five-stars.svg" class="five_stars" id="stars">
+                    <p class="slider_review">"Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quasi corrupti et, harum nulla suscipit atque."
+                    </p>
+                    <button>BROWSE SHOES</button>
+                </div>
+            </section>
+            <section class="slider_body slider_body-show" data-id="2">
+                <figure class="slide_picture">
+                    <img src="imagenes/comentario-2.jpg" class="slider_img">
+                </figure>
+                <div class="slider_text">
+                    <h1 class="subtitle">DENMARK CLASSIC SIGNATURE MEN'S SUIT</h1>
+                    <img src="assets/five-stars.svg" class="five_stars" id="stars">
+                    <p class="slider_review">"Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quasi corrupti et, harum nulla suscipit atque."
+                    </p>
+                    <button>BROWSE SHOES</button>
+                </div>
+            </section>
+            <section class="slider_body slider_body-show" data-id="3">
+                <figure class="slide_picture">
+                    <img src="imagenes/comentario-3.jpg" class="slider_img">
+                </figure>
+                <div class="slider_text">
+                    <h1 class="subtitle">DENMARK CLASSIC SIGNATURE MEN'S WATCH</h1>
+                    <img src="assets/five-stars.svg" class="five_stars" id="stars">
+                    <p class="slider_review">"Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quasi corrupti et, harum nulla suscipit atque."
+                    </p>
+                    <button>BROWSE WATCH</button>
+                </div>
+            </section>
+            <img src="assets/arrow-right.svg" class="slider_arrow" id="after">
+    </section>
+    </div>
+    </section>
+    <script src="slider.js"></script>
 </body>
+<footer></footer>
+
 </html>
