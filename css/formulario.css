@@ -1,0 +1,49 @@
+footer button {
+    background-color: #15bd60;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+
+.ventana {
+    background-color: rgba(100, 148, 237, 0.616);
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    opacity: 0; /*Oculta la ventana */
+    position: fixed; /*ventana sobre el contenido*/ 
+    line-height: 204%;
+}
+
+
+.container_ventana {
+    display: flex;
+    justify-content: center;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+form {
+    display: flex;
+
+    flex-direction: column;
+    padding: 10% 9%;
+}
+
+form button {
+    background-color: #15bd60;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+}
