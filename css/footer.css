@@ -1,0 +1,62 @@
+footer {
+    background-color: black;
+    color: white;
+}
+.contenedor_1 .iconos  {
+    display: flex;
+}
+.contenedor_1 .iconos i{
+    padding: 20px;
+    
+}
+.contenedor_2{
+    display: flex;
+    
+}
+.texto_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.texto_2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.texto_3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.texto_4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.texto_5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.texto_6{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.contenedor_3{
+    display: flex;
+flex-direction: row;
+} 
+.contenedor_padre{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.contenedor_3 h3{
+    margin-bottom: 100px;
+}
+
+.contenedor_1 .titulo {
+    margin-left: 900px;
+}
