@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/general.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/header.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/banner.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/benefits.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/allies.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/opinions.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/footer.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/fontawesome-free-6.2.1-web/css/all.css">
-    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="../Brief-E-Commerse/css/header.css">
+    <link rel="stylesheet" href="../Brief-E-Commerse/css/banner.css">
+    <link rel="stylesheet" href="../Brief-E-Commerse/css/benefits.css">
+    <link rel="stylesheet" href="../Brief-E-Commerse/css/allies.css">
+    <link rel="stylesheet" href="../Brief-E-Commerse/css/opinions.css">
+    <link rel="stylesheet" href="../Brief-E-Commerse/css/footer.css">
+    <link rel="stylesheet" href="../Brief-E-Commerse/css/formulario.css">
+    <link rel="stylesheet" href="../Brief-E-Commerse/css/general.css">
+    <script defer src="js/index.js"></script>
     <title>Document</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
     </style>
 </head>
 <body>
+    <!------------------header----------------->
+
     <header>
-        <img src="../Brief_E-Commerse/imagenes/logoBriefing.JPG" alt="Logo de la empresa" class="logo">
+        <img src="../Brief-E-Commerse/imagenes/logoBriefing.JPG" alt="Logo de la empresa" class="logo">
         <div class="container">
             <nav class="menu">
                 <ul class="lista_navegador ">
-                    <li> <a href="#"><i class="fa-solid fa-play" id="mens"></i>MENSWEAR</a></li>
+                    <li><a href="#"><i class="fa-solid fa-play" id="mens"></i>MENSWEAR</a></li>
                     <li><a href="#"><i class="fa-solid fa-play"></i>FOOTWEAR</a></li>
                     <li><a href="#"><i class="fa-solid fa-play" id="icono_acc"></i>ACCESORIES</a></li>
                     <li><a href="#"><i class="fa-solid fa-play" id="icono_cle"></i>CLEARANCE</a></li>
@@ -35,7 +36,8 @@
         <button class="nav-toggle">
             <i class="fa-solid fa-bars"></i>
         </button>
-</header> 
+    </header>  
+    
     <!------------------banner------------------>
     <section id="banner">
         <div class="container_banner">
@@ -49,33 +51,56 @@
         </div>
     </section>
 
-    <section class="benefits">
+    <!------------------benefits----------------->
+    <section id="benefits">
+        <div class="container">
+            <img src="../Brief-E-Commerse/imagenes/free.jpg" alt="">
+            <div class="benefits-text">
+                <h2 class="titulo">free shipping</h2>
+                <P>When you spend $50.000 minimum before taxes on all online orders.</P>
+                <a href="">details</a>
+            </div>
+            <img src="../Brief-E-Commerse/imagenes/price.jpg" alt="">
+            <div class="benefits-text">
+                <h2 class="titulo">price matching</h2>
+                <P>Present a qualifying competitor's ad and we'll gladly price match!</P>
+                <a href="">details</a>
+            </div>
+            <img src="../Brief-E-Commerse/imagenes/store.jpg" alt="">
+            <div class="benefits-text">
+                <h2 class="titulo">store pick up</h2>
+                <P>Buy online, and then pick up your order in store or curbside.</P>
+                <a href="">details</a>
+            </div>
+        </div>
     </section>
-
+    <!------------------allies----------------->
     <section class="allies">
         <h4>FEATURED ON:</h4>
-    <hr>
+        <br>
+        <hr>
     <div class="container">
         <div class="logo_zapato">
-            <img src="../Brief_E-Commerse/imagenes/black-high-heels-icon-vector-vector-id523181633-1498905619" alt="Imagen de tacón" class="zapato">
+            <img src="imagenes/black-high-heels-icon-vector-vector-id523181633-1498905619" alt="Imagen de tacón" class="zapato">
             <p class="texto_zapato">THE <br/>FASHIONISTA<br/>INSIDER</p>
         </div>
-        <img src="../Brief_E-Commerse/imagenes/chanel" alt="Logo Chanel" class="chanel">
-        <img src="../Brief_E-Commerse/imagenes/glamour_magazine_logo-3510917930" alt="Glamour Magazine" class="glamour">
-        <img src="../Brief_E-Commerse/imagenes/ac-arturo-calle-86066092-4203823356" alt="Arturo Calle" class="arturo_calle">
+        <img src="imagenes/chanel" alt="Logo Chanel" class="chanel">
+        <img src="imagenes/glamour_magazine_logo-3510917930" alt="Glamour Magazine" class="glamour">
+        <img src="imagenes/ac-arturo-calle-86066092-4203823356" alt="Arturo Calle" class="arturo_calle">
         
     </div>
     </section>
+    
     <!------------------opiniones----------------->
     <section id="opinions">
         <hr>
         <h2 class="title">COSTUMER TOP PICKS:</h2>
         </hr>
         <div class="slider_container container_s">
-            <img src="assets/arrow-left.svg" class="slider_arrow" id="before">
+            <img src="../Brief-E-Commerse/assets/arrow-left.svg" class="slider_arrow" id="before">
             <section class="slider_body slider_body-show" data-id="1">
                 <figure class="slide_picture">
-                    <img src="imagenes/comentario-1.jpg" class="slider_img">
+                    <img src="../Brief-E-Commerse/imagenes/comentario-1.jpg" class="slider_img">
                 </figure>
                 <div class="slider_text">
                     <h1 class="subtitle">DENMARK CLASSIC SIGNATURE MEN'S SUIT</h1>
@@ -88,7 +113,7 @@
             </section>
             <section class="slider_body slider_body-show" data-id="2">
                 <figure class="slide_picture">
-                    <img src="imagenes/comentario-2.jpg" class="slider_img">
+                    <img src="../Brief-E-Commerse/imagenes/comentario-2.jpg" class="slider_img">
                 </figure>
                 <div class="slider_text">
                     <h1 class="subtitle">DENMARK CLASSIC SIGNATURE MEN'S SUIT</h1>
@@ -101,7 +126,7 @@
             </section>
             <section class="slider_body slider_body-show" data-id="3">
                 <figure class="slide_picture">
-                    <img src="imagenes/comentario-3.jpg" class="slider_img">
+                    <img src="../Brief-E-Commerse/imagenes/comentario-3.jpg" class="slider_img">
                 </figure>
                 <div class="slider_text">
                     <h1 class="subtitle">DENMARK CLASSIC SIGNATURE MEN'S WATCH</h1>
@@ -116,11 +141,88 @@
     </section>
     </div>
     </section>
-    <script src="slider.js"></script>
+    <script src="../Brief-E-Commerse/js/slider.js"></script>
 </section>
-
 <footer>
-
+    <button id="abrir_formulario">
+        Suscribete!
+    </button>
+    <div class="container_ventana">
+        <div id="ventana" class="ventana">
+            <form action="">
+                <h1>Bienvenid@!</h1>
+                    <label for="nombres">Nombres: </label>
+                    <input type="text">
+                    <label for="apellidos">Apellidos: </label>
+                    <input type="text">
+                    <label for="edad">Edad: </label>
+                    <input type="text">
+                    <label for="correo">Correo Electronico: </label>
+                    <input type="text">
+                    <button id="enviar">Enviar</button>
+            </form>
+        </div>
+    </div> 
+    <div class="contenedor_1">
+        <h3 class="titulo">STORE LOCATIONS</h3>
+        <div class="iconos">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <h3>DENMARKAPPAREL</h3>
+            
+            
+        </div>
+        <div class="contenedor_padre">
+        <div class="contenedor_2">
+            <div class="texto_1">
+                <P>home</P>
+                <p>About Us</p>
+                <p>Join Our Team</p>
+            </div>
+            <div class="texto_2">
+                <p>Customer Service</p>
+                <p> Gift Cards / Balance</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="texto_3">
+                <p>Email Sing Up</p>
+                <p>Order Tracking</p>
+                <p>Return Policy</p>
+            </div>
+        
+        </div>
+        
+        <div class="contenedor_3">
+            
+            
+    
+            <div class="texto_4">
+                <p>FLORIDA LOCATION</p>
+                <p>4758 Holt Street</p>
+                <p>Boca Raton, FL 33487</p>
+                <p>(785) 689-4123</p>
+            </div>
+            <div class="texto_5">
+                <P>CALIFORNIA LOCATION</P>
+                <p>2659 Pike Street</p>
+                <p>San Diego, CA 92103</p>
+                <p>(858)610-2828</p>
+            </div>
+            <div class="texto_6">
+                <P>TEXAS LOCATION</P>
+            
+            <p>1731 Weekley Street</p>
+            <p> San Antonio, TX 78205</p>
+            <p>(210) 299-7827</p>
+        </div>
+    </div>
+</div>
+        <div class="contenedor_4">
+            <p>&copy;2025 Denmark Apparel Co.*1-800-555-0287</p>
+            <p>Site Index*Terms Of Use*Privacity Policy </p>
+        </div>
 </footer>
+<script src="js/formulario.js"></script>
 </body>
 </html>

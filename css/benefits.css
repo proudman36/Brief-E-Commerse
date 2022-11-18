@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    padding: 2%;
+    background-color: #5d3f3d;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefits-text {
+    align-items: center;
+    color: white;
+    display: flow-root;
+    align-self: flex-start;
+    padding: 2%;
+}
+
+#benefits img {
+    width: 13%;
+    height: 20%;
+}
+
+#benefits p {
+    line-height: 1.5;
+    line-break: anywhere;
+}
+
+.text-align-justify{
+    text-align:justify;
+}
+#benefits a {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.titulo {
+    text-transform: uppercase;
+}
+
+@media (max-width:500px){
+
+.container {
+    display: flex;
+    background-color: #5d3f3d;
+    flex-direction: column;
+    text-align: center;
+}
+
+.benefits-text {
+    align-items: center; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-self: start;
+}
+
+#benefits img {
+    width: 66%;
+    height: 20%;
+}
+
+#benefits p {
+    font-size: larger;
+}
+
+#benefits a {
+    color: white;
+    text-transform: uppercase;
+
+}
+}
