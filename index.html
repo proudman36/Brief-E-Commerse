@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/general.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/header.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/banner.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/benefits.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/allies.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/opinions.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/css/footer.css">
-    <link rel="stylesheet" href="../Brief_E-Commerse/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/benefits.css">
+    <link rel="stylesheet" href="css/allies.css">
+    <link rel="stylesheet" href="css/opinions.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css">
     <script defer src="index.js"></script>
     <title>Document</title>
     <style>
@@ -21,25 +21,21 @@
 </head>
 <body>
     <header>
-        <img src="../Brief_E-Commerse/imagenes/logoBriefing.JPG" alt="Logo de la empresa" class="logo">
+        <img src="imagenes/logoBriefing.JPG" alt="Logo de la empresa" class="logo">
         <div class="container">
-        
             <nav class="menu">
-               
                 <ul class="lista_navegador ">
                     <li> <a href="#"><i class="fa-solid fa-play" id="mens"></i>MENSWEAR</a></li>
                     <li><a href="#"><i class="fa-solid fa-play"></i>FOOTWEAR</a></li>
                     <li><a href="#"><i class="fa-solid fa-play" id="icono_acc"></i>ACCESORIES</a></li>
                     <li><a href="#"><i class="fa-solid fa-play" id="icono_cle"></i>CLEARANCE</a></li>
-                
                 </ul>
-            
-             </nav>
+            </nav>
         </div>
         <button class="nav-toggle">
             <i class="fa-solid fa-bars"></i>
         </button>
-   </header>
+</header> 
     <!------------------banner------------------>
     <section id="banner">
         <div class="container_banner">
@@ -53,20 +49,78 @@
         </div>
     </section>
 
-    </section>
     <section class="benefits">
+    </section>
 
-   </section>
-   <section class="allies">
+    <section class="allies">
+        <h4>FEATURED ON:</h4>
+    <hr>
+    <div class="container">
+        <div class="logo_zapato">
+            <img src="imagenes/black-high-heels-icon-vector-vector-id523181633-1498905619" alt="Imagen de tacón" class="zapato">
+            <p class="texto_zapato">THE <br/>FASHIONISTA<br/>INSIDER</p>
+        </div>
+        <img src="imagenes/chanel" alt="Logo Chanel" class="chanel">
+        <img src="imagenes/glamour_magazine_logo-3510917930" alt="Glamour Magazine" class="glamour">
+        <img src="imagenes/ac-arturo-calle-86066092-4203823356" alt="Arturo Calle" class="arturo_calle">
+        
+    </div>
+    </section>
+    <!------------------opiniones----------------->
+    <section id="opinions">
+        <hr>
+        <h2 class="title">COSTUMER TOP PICKS:</h2>
+        </hr>
+        <div class="slider_container container_s">
+            <img src="assets/arrow-left.svg" class="slider_arrow" id="before">
+            <section class="slider_body slider_body-show" data-id="1">
+                <figure class="slide_picture">
+                    <img src="imagenes/comentario-1.jpg" class="slider_img">
+                </figure>
+                <div class="slider_text">
+                    <h1 class="subtitle">DENMARK CLASSIC SIGNATURE MEN'S SUIT</h1>
+                    <img src="assets/five-stars.svg" class="five_stars" id="stars">
+                    <p class="slider_review">"Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quasi corrupti et, harum nulla suscipit atque."
+                    </p>
+                    <button>BROWSE SHOES</button>
+                </div>
+            </section>
+            <section class="slider_body slider_body-show" data-id="2">
+                <figure class="slide_picture">
+                    <img src="imagenes/comentario-2.jpg" class="slider_img">
+                </figure>
+                <div class="slider_text">
+                    <h1 class="subtitle">DENMARK CLASSIC SIGNATURE MEN'S SUIT</h1>
+                    <img src="assets/five-stars.svg" class="five_stars" id="stars">
+                    <p class="slider_review">"Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quasi corrupti et, harum nulla suscipit atque."
+                    </p>
+                    <button>BROWSE SHOES</button>
+                </div>
+            </section>
+            <section class="slider_body slider_body-show" data-id="3">
+                <figure class="slide_picture">
+                    <img src="imagenes/comentario-3.jpg" class="slider_img">
+                </figure>
+                <div class="slider_text">
+                    <h1 class="subtitle">DENMARK CLASSIC SIGNATURE MEN'S WATCH</h1>
+                    <img src="assets/five-stars.svg" class="five_stars" id="stars">
+                    <p class="slider_review">"Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quasi corrupti et, harum nulla suscipit atque."
+                    </p>
+                    <button>BROWSE WATCH</button>
+                </div>
+            </section>
+            <img src="assets/arrow-right.svg" class="slider_arrow" id="after">
+    </section>
+    </div>
+    </section>
+    <script src="slider.js"></script>
+</section>
 
-   </section>
-   <section class="opinions">
+<footer>
 
-   </section>
-   <footer>
-
-   </footer>
+</footer>
 </body>
-<footer></footer>
-
 </html>
